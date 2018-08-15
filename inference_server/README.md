@@ -22,14 +22,14 @@ Set the following environment variables:
 | Parameter         | Environment Variable | Default Value           |
 |-------------------|----------------------|-------------------------|
 | number of workers | MODEL_SERVER_WORKERS | the number of CPU cores |
-| timeout           | MODEL_SERVER_TIMEOUT | 120 seconds             |
+| timeout           | MODEL_SERVER_TIMEOUT | 800 seconds             |
 | nginx config path | NGINX_CONF_PATH      | /etc/nginx/nginx.conf   |
 | text recog model path | TEXT_RECOG_MODEL_PATH      | -   |
 
 Example:
 ```bash
 export MODEL_SERVER_WORKERS=1
-export MODEL_SERVER_TIMEOUT=120
+export MODEL_SERVER_TIMEOUT=800
 export NGINX_CONF_PATH=/home/user/UiPath_Document_OCR/inference_server/nginx.conf
 export TEXT_RECOG_MODEL_PATH=/home/user/UiPath_Document_OCR/inference_server/text_recog_model
 ```
