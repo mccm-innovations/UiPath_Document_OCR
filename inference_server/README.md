@@ -33,7 +33,7 @@ Example:
 export MODEL_SERVER_WORKERS=1
 export MODEL_SERVER_TIMEOUT=800
 export NGINX_CONF_PATH=/home/user/UiPath_Document_OCR/inference_server/nginx.conf
-export TEXT_RECOG_MODEL_PATH=/home/user/UiPath_Document_OCR/inference_server/text_recog_model
+export TEXT_RECOG_MODEL_PATH=/home/user/UiPath_Document_OCR/inference_server/recog_model
 ```
 ### Run the inference server
 By default, this server uses the port 1234. Run it with the following command:
