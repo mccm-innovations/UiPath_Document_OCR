@@ -53,7 +53,7 @@ Result:
     "gender":"M",  
     "support_num":"ABC123456",  
     "dob":"01 01 1980",  
-    "expires":"01 01 2030"  
+    "expires":"01 01 2030",  
     "id_num":"12345678J",  
     "can_num":"123456",  
 }
