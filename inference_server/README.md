@@ -1,6 +1,8 @@
 # Inference server
 ## Dependencies
-Library dependencies for the python code.  You need to install these with
+
+- [NGINX](https://www.nginx.com/). You can install it with `sudo apt-get install nginx` if you are using an Ubuntu OS.
+- Library dependencies for the Python code.  You need to install these with
 `pip install -r requirements.txt` before you can run this.
 
 **NOTE:** This server has been tested in Ubuntu 16.04 and Python 3.5.
