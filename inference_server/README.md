@@ -2,6 +2,7 @@
 ## Dependencies
 
 - [NGINX](https://www.nginx.com/). You can install it with `sudo apt-get install nginx` if you are using an Ubuntu OS.
+- poppler-utils to convert pdf to images: `sudo apt-get install poppler-utils`.
 - Library dependencies for the Python code.  You need to install these with
 `pip install -r requirements.txt` before you can run this.
 
