@@ -8,3 +8,4 @@ pdf2image
 tensorflow
 scikit-image
 distance
+pandas
